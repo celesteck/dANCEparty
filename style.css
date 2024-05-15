@@ -1,44 +1,43 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-image: url('https://example.com/background.jpg'); /* Replace with your own image URL */
+    font-family: 'Arial', sans-serif;
+    background: url('https://example.com/ocean-background.jpg') no-repeat center center fixed; /* Replace with your own background image URL */
     background-size: cover;
+    color: #ffffff;
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #fff;
 }
 
 .invitation {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 123, 255, 0.8);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 80%;
     max-width: 600px;
 }
 
 .invitation h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #f4a261;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+    color: #ffde59;
 }
 
-.info p {
+.invitation h2 {
+    color: #ff6b6b;
+    font-size: 2rem;
+}
+
+.invitation p {
     font-size: 1.2rem;
     margin: 10px 0;
 }
 
-.highlight {
-    color: #e9c46a;
-    font-weight: 700;
-}
-
 .rsvp-button {
-    background-color: #e76f51;
+    background-color: #4cd137;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -49,6 +48,7 @@ body {
 }
 
 .rsvp-button:hover {
-    background-color: #f4a261;
+    background-color: #44bd32;
     transform: scale(1.1);
 }
+
