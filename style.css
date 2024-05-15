@@ -1,44 +1,54 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0e5de;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://example.com/background.jpg'); /* Replace with your own image URL */
+    background-size: cover;
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #fff;
 }
 
 .invitation {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     text-align: center;
+    width: 80%;
+    max-width: 600px;
 }
 
 .invitation h1 {
-    color: #2a9d8f;
-    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4a261;
+    font-size: 2.8rem;
 }
 
-.invitation p {
-    color: #264653;
+.info p {
     font-size: 1.2rem;
     margin: 10px 0;
+}
+
+.highlight {
+    color: #e9c46a;
+    font-weight: 700;
 }
 
 .rsvp-button {
     background-color: #e76f51;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .rsvp-button:hover {
     background-color: #f4a261;
+    transform: scale(1.1);
 }
