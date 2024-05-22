@@ -1,4 +1,8 @@
 body {
+    background-image: url(bbshark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
     margin: 0;
@@ -11,8 +15,10 @@ body {
 }
 
 .invitation {
+    margin: right 10%;
     background-color: rgba(4, 95, 192, 0.973);
     padding: 40px;
+    padding-bottom: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(236, 197, 197, 0.2);
     text-align: center;
@@ -38,6 +44,7 @@ body {
 }
 
 .rsvp-button {
+    display: block;
     background-color: #f5a5da;
     color: white;
     padding: 15px 30px;
@@ -46,6 +53,7 @@ body {
     font-size: 1.0rem;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
 }
 
 .rsvp-button:hover {
